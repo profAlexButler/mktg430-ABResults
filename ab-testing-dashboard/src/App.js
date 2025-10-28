@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { loadAllData } from './services/dataService';
+import { anonymizeDataset } from './utils/anonymize';
 import Overview from './components/Overview';
 import TestResults from './components/TestResults';
 import StudentAnalysis from './components/StudentAnalysis';
 import QualitativeInsights from './components/QualitativeInsights';
 import PatternsInsights from './components/PatternsInsights';
+import StatisticalSignificance from './components/StatisticalSignificance';
 import './App.css';
 
 /**
@@ -19,12 +21,21 @@ function App() {
   const [activeTab, setActiveTab] = useState('overview');
 
   useEffect(() => {
-    // Load all CSV data on component mount
+    // Load all CSV data on component mount and anonymize student names
     const fetchData = async () => {
       try {
         setLoading(true);
         const allData = await loadAllData();
-        setData(allData);
+
+        // Anonymize student names for privacy protection
+        const anonymizedData = {
+          ...allData,
+          masterDataset: anonymizeDataset(allData.masterDataset),
+          studentPatterns: anonymizeDataset(allData.studentPatterns),
+          allComments: anonymizeDataset(allData.allComments),
+        };
+
+        setData(anonymizedData);
         setLoading(false);
       } catch (err) {
         console.error('Failed to load data:', err);
@@ -39,6 +50,7 @@ function App() {
   const tabs = [
     { id: 'overview', label: 'Overview', icon: '📊' },
     { id: 'tests', label: 'Test Results', icon: '🧪' },
+    { id: 'significance', label: 'Statistical Significance', icon: '📐' },
     { id: 'students', label: 'Student Analysis', icon: '👥' },
     { id: 'insights', label: 'Qualitative Insights', icon: '💬' },
     { id: 'patterns', label: 'Patterns & Insights', icon: '📈' },
@@ -72,6 +84,8 @@ function App() {
         return <Overview data={data} />;
       case 'tests':
         return <TestResults data={data} />;
+      case 'significance':
+        return <StatisticalSignificance data={data} />;
       case 'students':
         return <StudentAnalysis data={data} />;
       case 'insights':
