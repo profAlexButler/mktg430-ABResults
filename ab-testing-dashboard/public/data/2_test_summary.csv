@@ -1,0 +1,18 @@
+Test Name,Test Type,Total Votes,Variant A Votes,Variant B Votes,Variant A %,Variant B %,Winner,Vote Margin,Margin %,Consensus Score,Avg Click Likelihood A,Avg Click Likelihood B,Std Click Likelihood A,Std Click Likelihood B,Likelihood Gap (A-B),Comments Count
+ImageTest - Wegmans Ascend,Image,22,21,1,95.5,4.5,Variant A,20,90.9,90.9,3.68,2.45,1.21,1.22,1.23,4
+ImageTest - Crocs,Image,22,2,20,9.1,90.9,Variant B,18,81.8,81.8,2.59,3.18,0.73,0.91,-0.59,5
+CopyTest - Duolingo,Copy,22,19,3,86.4,13.6,Variant A,16,72.7,72.7,4.09,2.32,0.75,1.04,1.77,4
+ImageTest - Duolingo,Image,22,19,3,86.4,13.6,Variant A,16,72.7,72.7,3.86,2.59,1.17,0.8,1.27,5
+CopyTest - Crocs,Copy,22,18,4,81.8,18.2,Variant A,14,63.6,63.6,3.5,2.05,1.34,1.09,1.45,3
+ImageTest - Wegmans Fresh,Image,22,4,18,18.2,81.8,Variant B,14,63.6,63.6,2.55,3.23,1.01,0.97,-0.68,4
+ImageTest - Denny's,Image,22,16,6,72.7,27.3,Variant A,10,45.5,45.5,3.59,2.73,0.96,0.83,0.86,5
+ImageTest - Wegmans,Image,22,6,16,27.3,72.7,Variant B,10,45.5,45.5,2.68,3.32,1.13,1.29,-0.64,6
+ImageTest - Liquid Death Skate,Image,22,15,7,68.2,31.8,Variant A,8,36.4,36.4,3.41,2.55,1.1,1.18,0.86,2
+ImageTest - Spirit Airlines,Image,22,8,14,36.4,63.6,Variant B,6,27.3,27.3,2.86,3.45,0.89,1.41,-0.59,2
+ImageTest - Arby's,Image,22,14,8,63.6,36.4,Variant A,6,27.3,27.3,3.09,2.95,1.06,1.29,0.14,4
+ImageTest - Memorial Art Gallery,Image,22,13,9,59.1,40.9,Variant A,4,18.2,18.2,2.73,3.0,1.16,1.11,-0.27,4
+CopyTest - Denny's Existential,Copy,22,9,13,40.9,59.1,Variant B,4,18.2,18.2,3.18,3.45,0.73,1.06,-0.27,3
+CopyTest - Liquid Death,Copy,44,25,19,56.8,43.2,Variant A,6,13.6,13.6,3.32,3.02,1.14,1.05,0.3,7
+CopyTest - Jimmy Johns,Copy,22,10,12,45.5,54.5,Variant B,2,9.1,9.1,3.0,3.23,0.98,1.27,-0.23,2
+CopyTest - Tim Hortons,Copy/Audience,22,11,11,50.0,50.0,Tie,0,0.0,0.0,3.23,2.86,1.07,1.25,0.36,3
+ImageTest - Liquid Death Metal,Image,22,11,11,50.0,50.0,Tie,0,0.0,0.0,3.09,3.23,1.02,1.19,-0.14,3

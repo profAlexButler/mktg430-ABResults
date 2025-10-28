@@ -1,0 +1,4 @@
+Test Type,Number of Tests,Total Responses,Avg Consensus Score,Avg Win Margin %,Variant A Selections,Variant B Selections,Variant A %,Variant B %,Avg Click Likelihood A,Avg Click Likelihood B,Comments Rate %,Variant A Wins,Variant B Wins,Ties
+Image,11,242,46.3,46.3,129,113,53.3,46.7,3.1,2.97,18.2,6,4,1
+Copy,5,132,35.4,35.4,81,51,61.4,38.6,3.4,2.85,14.4,3,2,0
+Copy/Audience,1,22,0.0,0.0,11,11,50.0,50.0,3.23,2.86,13.6,0,0,1
