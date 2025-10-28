@@ -5,12 +5,15 @@ import Papa from 'papaparse';
  * Loads all 5 CSV files containing A/B testing workshop results
  */
 
+// Use process.env.PUBLIC_URL for GitHub Pages compatibility
+const BASE_URL = process.env.PUBLIC_URL || '';
+
 const DATA_FILES = {
-  masterDataset: '/data/1_master_dataset.csv',
-  testSummary: '/data/2_test_summary.csv',
-  testTypePatterns: '/data/3_test_type_patterns.csv',
-  studentPatterns: '/data/4_student_patterns.csv',
-  allComments: '/data/5_all_comments.csv',
+  masterDataset: `${BASE_URL}/data/1_master_dataset.csv`,
+  testSummary: `${BASE_URL}/data/2_test_summary.csv`,
+  testTypePatterns: `${BASE_URL}/data/3_test_type_patterns.csv`,
+  studentPatterns: `${BASE_URL}/data/4_student_patterns.csv`,
+  allComments: `${BASE_URL}/data/5_all_comments.csv`,
 };
 
 /**
