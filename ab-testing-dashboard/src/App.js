@@ -5,6 +5,7 @@ import TestResults from './components/TestResults';
 import StudentAnalysis from './components/StudentAnalysis';
 import QualitativeInsights from './components/QualitativeInsights';
 import PatternsInsights from './components/PatternsInsights';
+import StatisticalSignificance from './components/StatisticalSignificance';
 import './App.css';
 
 /**
@@ -39,6 +40,7 @@ function App() {
   const tabs = [
     { id: 'overview', label: 'Overview', icon: '📊' },
     { id: 'tests', label: 'Test Results', icon: '🧪' },
+    { id: 'significance', label: 'Statistical Significance', icon: '📐' },
     { id: 'students', label: 'Student Analysis', icon: '👥' },
     { id: 'insights', label: 'Qualitative Insights', icon: '💬' },
     { id: 'patterns', label: 'Patterns & Insights', icon: '📈' },
@@ -72,6 +74,8 @@ function App() {
         return <Overview data={data} />;
       case 'tests':
         return <TestResults data={data} />;
+      case 'significance':
+        return <StatisticalSignificance data={data} />;
       case 'students':
         return <StudentAnalysis data={data} />;
       case 'insights':
