@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { loadAllData } from './services/dataService';
+import { anonymizeDataset } from './utils/anonymize';
 import Overview from './components/Overview';
 import TestResults from './components/TestResults';
 import StudentAnalysis from './components/StudentAnalysis';
@@ -20,12 +21,21 @@ function App() {
   const [activeTab, setActiveTab] = useState('overview');
 
   useEffect(() => {
-    // Load all CSV data on component mount
+    // Load all CSV data on component mount and anonymize student names
     const fetchData = async () => {
       try {
         setLoading(true);
         const allData = await loadAllData();
-        setData(allData);
+
+        // Anonymize student names for privacy protection
+        const anonymizedData = {
+          ...allData,
+          masterDataset: anonymizeDataset(allData.masterDataset),
+          studentPatterns: anonymizeDataset(allData.studentPatterns),
+          allComments: anonymizeDataset(allData.allComments),
+        };
+
+        setData(anonymizedData);
         setLoading(false);
       } catch (err) {
         console.error('Failed to load data:', err);
