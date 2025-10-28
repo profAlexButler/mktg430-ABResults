@@ -1,0 +1,67 @@
+Test Name,Test Type,Student Name,Variant Selected,Variant A Click Likelihood,Variant B Click Likelihood,Comment
+CopyTest - Crocs,Copy,Chinenye Ozowalu,Variant A,5,3,The visuals are more unique and seems to have a higher production budget
+CopyTest - Crocs,Copy,John Williams,Variant A,3,1,"I'm a disney hater, but the naruto crocs look cool"
+CopyTest - Crocs,Copy,Labibah Hassan,Variant A,5,1,The design of Variant A is really well done. I wish Variant B had more going on in the background. 
+CopyTest - Denny's Existential,Copy,Elise,Variant B,4,5,Hilarious copy
+CopyTest - Denny's Existential,Copy,John Williams,Variant A,5,3,"I love the ""Wtf did I just read"" energy of the caption in A"
+CopyTest - Denny's Existential,Copy,Labibah Hassan,Variant B,3,4,I don't understand what the Variant A caption is trying to imply.
+CopyTest - Duolingo,Copy,Chinenye Ozowalu,Variant B,3,5,Funny
+CopyTest - Duolingo,Copy,Elise,Variant A,5,2,"A is much more on-theme for duo, and the copy feels more fitting for the image"
+CopyTest - Duolingo,Copy,John Williams,Variant A,4,2,A fits better with the Duolingo vibe while B feels like a needy ex
+CopyTest - Duolingo,Copy,Labibah Hassan,Variant A,4,1,Variant A is more assertive which feels more motivating than the clingy tone of Variant B.
+CopyTest - Jimmy Johns,Copy,John Williams,Variant A,5,2,"While the cartoonish style is cool, A's showcase of one good looking sandwich makes me want to buy more"
+CopyTest - Jimmy Johns,Copy,Labibah Hassan,Variant A,4,3,Too much going on for Variant B.
+CopyTest - Liquid Death,Copy,Chinenye Ozowalu,Variant A,5,3,Its scary
+CopyTest - Liquid Death,Copy,Elise,Variant A,4,4,"Hard to chose! Variant A just looks like a cleaner image, but the vibes of variant B feel more fitting"
+CopyTest - Liquid Death,Copy,Erin Oliver,Variant A,3,3,"i think the ""day drinking just got approved"" fits really well with the brand for liquid death however it's too small to be noticed"
+CopyTest - Liquid Death,Copy,John Williams,Variant A,4,1,"Variant A looks like one of the ""Don't underage drink"" PSAs and makes we want to know more"
+CopyTest - Liquid Death,Copy,John Williams,Variant A,4,2,"I like A's energy and feel of just Dracula enjoying the drink, B has too much going on in it"
+CopyTest - Liquid Death,Copy,Labibah Hassan,Variant A,5,1,The branding of Liquid Death is meant to be aggressive which Variant A does very well.
+CopyTest - Liquid Death,Copy,Labibah Hassan,Variant A,4,3,The caption for Variant A is cool.
+CopyTest - Tim Hortons,Copy/Audience,Chinenye Ozowalu,Variant B,3,5,Variant B seems more cohesive with the cold weather and cozy vibes made with the jackolanterns and warm mall
+CopyTest - Tim Hortons,Copy/Audience,John Williams,Variant A,4,3,I like A more since the Tim Hortons logo in the back is clearer and the iced drink looks good
+CopyTest - Tim Hortons,Copy/Audience,Labibah Hassan,Variant A,5,4,Both designs are done really well but I feel more drawn to the natural lighting in Variant A.
+ImageTest - Arby's,Image,Elise,Variant B,4,5,"""Manly meats"" had me on the floor"
+ImageTest - Arby's,Image,Erin Oliver,Variant A,3,3,"only because i hate variant b more than i am bored by variant a (also don't like the ""manly"" bit)"
+ImageTest - Arby's,Image,John Williams,Variant A,4,3,"While the manly meats is funny, I don't think I'd like to click it given the inuendo. I'll stick with the 30 grams of protein."
+ImageTest - Arby's,Image,Labibah Hassan,Variant A,4,2,Variant A is more subtle than directly associating the nuggets with manliness. 
+ImageTest - Crocs,Image,Bernarda Basic,Variant B,3,3,I don't see the left picture
+ImageTest - Crocs,Image,Chinenye Ozowalu,Variant A,3,3,I love mystery
+ImageTest - Crocs,Image,Erin Oliver,Variant B,3,3,variant a not found?
+ImageTest - Crocs,Image,John Williams,Variant B,3,5,I like B's simplicity
+ImageTest - Crocs,Image,Moven Lee,Variant B,3,4,Can't see Variant A
+ImageTest - Denny's,Image,Bernarda Basic,Variant B,3,3,mostly because I see what the food looks like
+ImageTest - Denny's,Image,Chinenye Ozowalu,Variant A,5,3,human interaction is nice 
+ImageTest - Denny's,Image,Elise,Variant B,2,3,Variant A feels waaaay to professional for Dennys. But also the Denny's branded food in variant B is foul...
+ImageTest - Denny's,Image,John Williams,Variant A,5,2,"Variant A makes me feel good seeing people enjoy one another's company over food, B just feels corporate."
+ImageTest - Denny's,Image,Labibah Hassan,Variant A,4,3,"Variant B makes more sense but I personally felt more drawn to Variant A because it's an accurate representation of all my experiences at Denny's. It's usually in the middle of the night with a group of friends. I don't know about the way they are dressed, a little too formal for Denny's but it works."
+ImageTest - Duolingo,Image,Chinenye Ozowalu,Variant A,5,3,"Funny, relatable and blunt - all of my favorite things "
+ImageTest - Duolingo,Image,Elise,Variant A,5,2,"Image text gives it more context and humor, the copy doesn't feel like enough"
+ImageTest - Duolingo,Image,Erin Oliver,Variant A,3,3,loving the typo in the meme text
+ImageTest - Duolingo,Image,John Williams,Variant A,5,2,There's more to digest in A and comes across as funnier fitting with Duolingo's brand
+ImageTest - Duolingo,Image,Labibah Hassan,Variant A,4,3,Variant A has text on the image which adds context whereas Variant B is confusing with no context as to why Duolingo bird is angry.
+ImageTest - Liquid Death Metal,Image,Erin Oliver,Variant B,3,3,variant a is not metal
+ImageTest - Liquid Death Metal,Image,John Williams,Variant B,3,5,I like the cartoonish heavy metal ad for this A/B test. Fits the brand and is more eye catching than the teenagers sleeping.
+ImageTest - Liquid Death Metal,Image,Labibah Hassan,Variant A,5,2,I like how Variant A feels more relatable.
+ImageTest - Liquid Death Skate,Image,John Williams,Variant A,5,3,"Variant A looks like the kid is rebellious, while B's cartoonish style doesn't do it for me. It looks cool though "
+ImageTest - Liquid Death Skate,Image,Labibah Hassan,Variant A,4,4,"This one was tough, I would not choose either."
+ImageTest - Memorial Art Gallery,Image,Chinenye Ozowalu,Variant A,5,2,The image is different than the norm for these kinds of posts- it sets itself apart visually 
+ImageTest - Memorial Art Gallery,Image,John Williams,Variant B,3,4,Reminds me of when I was a kid going to the strong
+ImageTest - Memorial Art Gallery,Image,Labibah Hassan,Variant A,4,3,I like the aesthetic of Variant A but would prefer if the children weren't in the dark. Variant B feels less personal which is why I chose Variant A.
+ImageTest - Memorial Art Gallery,Image,Mikaela,Variant A,4,3,More things going on in an image help catch eyes more
+ImageTest - Spirit Airlines,Image,John Williams,Variant B,3,4,"I like B more since it feels funnier, but it's interesting how the funny subtext changes the tone of the caption"
+ImageTest - Spirit Airlines,Image,Labibah Hassan,Variant B,4,5,Variant B works because of how the brand displays self awareness. It's relatable.
+ImageTest - Wegmans,Image,Chinenye Ozowalu,Variant A,5,3,"The photographic style is cool and offsets the usual Wegman's look, its a contemporary twist "
+ImageTest - Wegmans,Image,Elise,Variant A,3,1,Feels more professional without the text - maybe just the wegmans logo would work?
+ImageTest - Wegmans,Image,Erin Oliver,Variant B,3,3,this was mine so perhaps disregard my vote but i was trying to see if text on an image makes people more likely to click
+ImageTest - Wegmans,Image,John Williams,Variant B,1,4,"Variant A looks like baby food, so thankfully B clarifies what it actually is and makes me want to eat it"
+ImageTest - Wegmans,Image,Labibah Hassan,Variant B,3,4,I like the text and branding on Variant B.
+ImageTest - Wegmans,Image,Marissa Tang,Variant A,4,1,The text added on the Variant B does not suit the image or the message. 
+ImageTest - Wegmans Ascend,Image,Elise,Variant A,5,2,The black background in Variant B feels ominous...
+ImageTest - Wegmans Ascend,Image,Henry Zheng,Variant A,2,1,costco better
+ImageTest - Wegmans Ascend,Image,John Williams,Variant A,5,1,Having the vegetable in the background makes want to know more whereas just a black background is boring
+ImageTest - Wegmans Ascend,Image,Labibah Hassan,Variant A,5,1,The background makes more sense in Variant A.
+ImageTest - Wegmans Fresh,Image,Chinenye Ozowalu,Variant B,3,5,Shows an array
+ImageTest - Wegmans Fresh,Image,Erin Oliver,Variant B,3,3,text on variant a is illegible
+ImageTest - Wegmans Fresh,Image,John Williams,Variant B,2,4,I like the collage of food showcasing what Wegmans has to offer more than I like just the singular dish
+ImageTest - Wegmans Fresh,Image,Labibah Hassan,Variant A,3,1,I don't like the collage design for Variant B.
