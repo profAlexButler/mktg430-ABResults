@@ -1,0 +1,39 @@
+
+A/B TESTING WORKSHOP - EXECUTIVE SUMMARY
+Generated: 2025-10-28 11:37:21
+
+PARTICIPATION METRICS
+- Total Responses: 396
+- Unique Students: 22
+- Number of Tests: 17
+- Response Rate: 105.9%
+
+OVERALL PREFERENCE TRENDS
+- Variant A Selected: 221 times (55.8%)
+- Variant B Selected: 175 times (44.2%)
+- Average Click Likelihood (A): 3.21/5
+- Average Click Likelihood (B): 2.92/5
+
+TEST TYPE COMPARISON
+    Test Type  Number of Tests  Total Responses  Avg Consensus Score  Avg Win Margin %  Variant A Selections  Variant B Selections  Variant A %  Variant B %  Avg Click Likelihood A  Avg Click Likelihood B  Comments Rate %  Variant A Wins  Variant B Wins  Ties
+        Image               11              242                 46.3              46.3                   129                   113         53.3         46.7                    3.10                    2.97             18.2               6               4     1
+         Copy                5              132                 35.4              35.4                    81                    51         61.4         38.6                    3.40                    2.85             14.4               3               2     0
+Copy/Audience                1               22                  0.0               0.0                    11                    11         50.0         50.0                    3.23                    2.86             13.6               0               0     1
+
+MOST DECISIVE TEST
+- Test: ImageTest - Wegmans Ascend
+- Winner: Variant A
+- Margin: 90.9%
+- Consensus Score: 90.9%
+
+LEAST DECISIVE TEST (Most Split)
+- Test: ImageTest - Liquid Death Metal
+- Winner: Tie
+- Margin: 0.0%
+- Consensus Score: 0.0%
+
+KEY INSIGHTS
+- Image tests had 46.3% avg consensus
+- Copy tests had 17.7% avg consensus
+- Comments were left on 66 responses (16.7%)
+- Most engaged student: John Williams (100.0% comment rate)
